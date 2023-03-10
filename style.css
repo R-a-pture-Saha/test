@@ -1,0 +1,96 @@
+body{
+	font-family:'PT Sans',sans-serif;
+	background-color:#2A3D43;
+	margin:0;
+	line-height:1.6;
+}
+a{
+	text-decoration: none;
+	color: #ADB8BF;
+}
+#showcase{
+	padding: 0;
+	margin:0;
+	background-image: url('B-Tech-Degree.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width:100%;
+	height:100vh;
+	position: relative;
+	overflow-y: hidden;
+}
+.section{
+	margin-top: 25vh;
+}
+h1{
+	font-size: 10vh;
+	margin-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+	color: #752CC3;
+}
+h2{
+	margin-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+	color: #C39BD3;
+}
+.hide-on-small{
+	margin-bottom: 0;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+	color: #C39BD3;
+}
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	color: #ADB8BF;
+	position: fixed;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 0;
+}
+nav li:hover{
+	background-color:#3C4950 ;
+}
+.column{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 2fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+footer ul{
+	list-style-type: none;
+}
+footer ul li:first-child{
+     font-size: 1.3rem;
+     padding-bottom: 0.75rem;
+     border-bottom: #A8C0D0 solid 0.75px;
+     margin-bottom: 1rem;
+     color: #ADB8BF;
+}
+footer .footer-bottom{
+	background-color: #333;
+	padding:1rem;
+	text-align: center;
+	 color: #ADB8BF;
+}
